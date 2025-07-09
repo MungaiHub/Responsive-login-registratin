@@ -122,6 +122,7 @@ ul {
   left: -100%;
   text-align: left;
   transition: all 0.5s;
+ 
 
   background-color: #ffffff; /* pure solid white */
   border: 0px solid #c9c8c8; /* visible border */
@@ -160,12 +161,12 @@ ul {
   justify-content: center;
   align-items: center;
   transform:scale(0);
+  margin: 120px auto;
   overflow:hidden;
   transition:transform 0.5s ease,height 0.2 ease, border-color 0.5s ease;
 }
 .cover-box.active-popup{
   transform:scale(1);
-  margin-top: 100px;
 }
 .cover-box.active{
   height:520px;
@@ -295,4 +296,37 @@ ul {
 }
 .login-register p a:hover{
   text-decoration: underline;
+}
+
+/* footer */
+.footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  color:black;
+  padding:10px 0;
+  text-align: center;
+  background-color: rgb(255, 255,255,0.2);
+  backdrop-filter:blur(10px);
+}
+.footer-content{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  padding: 0 10px;
+}
+.social-icons a{
+  color:rgb(99, 81, 133);
+  font-size:1.5em;
+  margin:0 10px;
+  text-decoration:none;
+  transition:color 0.3s ease-in-out;
+}
+.footer-content p{
+  font-size:0.9em;
+  margin-bottom: 10px;
+}
+.social-icons a:hover{
+  color:#05190a;
 }
