@@ -8,7 +8,7 @@ This is a simple responsive web project featuring:
 
 ## 🌐 Live Demo
 
-[Click here to view the site](https://vercel.com/amos-projects-1a691a2e/responsive-login-registratin)
+[Click here to view the site](https://responsive-login-registratin-f7bcq58o2-amos-projects-1a691a2e.vercel.app/)
 
 
 ## 🛠 Technologies Used
