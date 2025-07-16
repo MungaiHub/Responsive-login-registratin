@@ -24,3 +24,6 @@ loginLink.addEventListener('click',deactivateCoverBox);
 btnpopup.addEventListener('click',activatePopup)
 iconClose.addEventListener('click',deactivateCoverPopup);
 
+
+
+
